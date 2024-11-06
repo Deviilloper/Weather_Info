@@ -1,0 +1,66 @@
+html, body {
+    height: 100%; /* Ensure full height for centering */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #e0f7fa; /* Light blue background for a fresh look */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.container {
+    max-width: 400px; /* Limit width for better readability */
+    width: 100%; /* Full width on smaller screens */
+}
+
+.card {
+    background-color: white; /* White card background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* Full width minus padding/border */
+    padding: 15px; /* Increased padding for comfort */
+    border-radius: 10px; /* More rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+    margin-bottom: 10px; /* Space below input field */
+    font-size: 16px; /* Larger font size for better readability */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 15px; /* Increased button size */
+    background-color: #00796b; /* Teal color for button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded button corners */
+    font-size: 16px; /* Consistent button text size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+}
+
+h2, h4, h5 {
+    text-align: center; /* Center align headings */
+}
+
+h2 {
+    margin-bottom: 5px; 
+    font-size: 24px; /* Larger font size for city name */
+}
+
+h4 {
+    color: #555; /* Slightly lighter color for time */
+}
+
+h5 {
+    color: #00796b; /* Match temperature color with button */
+}
